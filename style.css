@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .clearfix::after{
     content: "";
@@ -74,7 +75,9 @@ img{
 }
 marquee{
     font-size: 50px;
-    color: rgb(17, 10, 66);
+    color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 .slider {
     font-size: 20px;
